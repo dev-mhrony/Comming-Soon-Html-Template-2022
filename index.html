@@ -1,0 +1,172 @@
+<!--
+================================================================
+* Designer  : 	 MH RONY - (https://www.developerrony.com)
+* FB ID     :    https://www.facebook.com/mh.rony.dhanvi
+* Author    :    Explancer || Developer MH RONY
+* Copyright :    2022
+================================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <link href="images/favicon.png" rel="icon" />
+    <title>Explancer || Welcome to Explancer BD</title>
+    <meta name="description" content="Explancer || This is a Trasted Company in BD">
+    <meta name="author" content="developerrony.com">
+    <link rel="shortcut icon" href="image/flogo.png" type="image/x-icon">
+
+    <!-- Web Fonts
+======================== -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
+
+    <!-- Stylesheet
+======================== -->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <link id="color-switcher" rel="stylesheet" type="text/css" href="css/color-yellow.css" />
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader preloader-dark">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Document Wrapper
+=============================== -->
+    <div id="main-wrapper" class="bg-dark">
+
+        <!-- Header -->
+        <header id="header">
+            <!-- Navbar -->
+            <nav class="primary-menu navbar navbar-expand-md navbar-text-light bg-transparent border-bottom-0">
+                <div class="container position-relative">
+                    <div class="col-auto col-lg-2" style="margin-top: 20px;">
+                        <!-- Logo -->
+                        <a class="logo" href="https://explancer.com" title="Explancer"> <img src="image/logo02.png" alt="Explancer" width="40%"/> </a>
+                        <!-- Logo End -->
+                    </div>
+
+                    <div class="col-auto d-flex justify-content-end" style="margin-top: 20px;">
+                        <ul class="social-icons social-icons-light">
+                            <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+                            <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+        </header>
+        <!-- Header End -->
+
+        <div class="container py-4 py-lg-0">
+            <div class="row min-vh-100">
+
+                <!-- Coming Soon Information
+          ============================== -->
+                <div class="col-lg-8 align-items-center d-flex flex-column py-5">
+                    <div class="row py-5 my-auto text-center text-lg-start">
+                        <div class="col-auto text-white text-center mx-auto mx-lg-0 mb-4 pb-2">
+                            <div class="countdown" data-countdown-end="2022/12/01 12:00:00"></div>
+                        </div>
+                        <div class="col-12 mx-auto">
+                            <h1 class="text-9 bg-primary d-inline-block fw-700 rounded px-3 py-2 mb-4">Coming Soon!</h1>
+                            <h2 class="text-15 text-white fw-600 mb-4">Our new website is on its way.</h2>
+                        </div>
+                        <div class="col-md-8 col-lg-9 col-xl-8 mx-auto me-lg-auto ms-lg-0">
+                            <p class="text-5 text-light mb-3">Get notified when we launch.</p>
+                            <!-- Subscribe Form -->
+                            <div class="subscribe-form">
+                                <form class="form-dark" action="php/subscribe.php" role="form" method="post">
+                                    <div class="input-group">
+                                        <input type="email" id="subscribe-form-email" name="subscribe-form-email" class="form-control border-dark required" required placeholder="Enter Your Email Here..">
+                                        <button id="subscribe-form-submit" name="subscribe-form-submit" class="btn btn-primary px-4 shadow-none" type="submit"><span class="d-none d-sm-block">Submit</span><span class="text-4 d-block d-sm-none"><i class="fas fa-arrow-right"></i></span></button>
+                                    </div>
+                                </form>
+                                <div class="subscribe-form-result mt-3"></div>
+                            </div>
+                            <!-- Subscribe End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Coming Soon Information End -->
+
+                <!-- Contact Us
+          ========================= -->
+                <div class="col-lg-4 my-auto py-lg-5">
+                    <div class="row bg-dark-2 rounded shadow-md text-center mx-0 py-4 mb-4 mb-lg-0">
+                        <div class="col-11 mx-auto">
+                            <h3 class="fw-600 text-white mb-3 mt-3">Contact Us</h3>
+                            <p class="text-muted mb-4">For Customer Support, Send us a note.</p>
+                            <!-- Contact Form -->
+                            <form id="contact-form" class="form-dark" action="php/mail.php" method="post">
+                                <div class="mb-3">
+                                    <input id="name" name="name" type="text" class="form-control border-2" placeholder="Enter Your Name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input id="email" name="email" type="email" class="form-control border-2" placeholder="Enter Your Email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea id="form-message" name="form-message" class="form-control border-2" rows="2" placeholder="Enter Your Query" required></textarea>
+                                </div>
+                                <div class="d-grid mt-4">
+                                    <button id="submit-btn" class="btn btn-primary" type="submit">Send Message</button>
+                                </div>
+                            </form>
+                            <!-- Contact Form end -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Us End -->
+            </div>
+
+            <footer class="container text-center">
+                <p class="text-muted text-2 mb-2">Copyright © 2022 <a class="fw-600" href="https://explancer.com">Explancer</a>. All Rights Reserved.</p>
+            </footer>
+        </div>
+    </div>
+    <!-- Document Wrapper End -->
+
+
+
+    <!-- Styles Switcher -->
+    <div id="styles-switcher" class="left">
+        <h5>Color Switcher</h5>
+        <hr>
+        <ul class="mb-0">
+            <li class="blue" data-bs-toggle="tooltip" title="Blue " data-path="#"></li>
+            <li class="yellow" data-bs-toggle="tooltip" title="Yellow (Default)" data-path="css/color-yellow.css"></li>
+        </ul>
+        <button class="btn switcher-toggle"><i class="fas fa-cog"></i></button>
+    </div>
+    <!-- Styles Switcher End -->
+
+    <!-- Script -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/jquery-form/jquery.form.min.js"></script>
+    <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-countdown/jquery.countdown.min.js"></script>
+    <script src="js/theme.js"></script>
+    <!-- Style Switcher -->
+    <script src="js/switcher.min.js"></script>
+</body>
+
+</html>
